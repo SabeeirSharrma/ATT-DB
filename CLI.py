@@ -18,9 +18,39 @@ from rich.console import Console
 from rich.progress import Progress, TextColumn, BarColumn, TaskProgressColumn
 from rich.style import Style
 
+
+CONFIG_FILE = "config.json"
+def load_config():
+    if os.path.exists(CONFIG_FILE):
+        try:
+            with open(CONFIG_FILE, "r") as f:
+                data = json.load(f)
+
+            # Auto-fix old/broken configs that are lists
+            if isinstance(data, list):
+                return {"uploads_url": DEFAULT_UPLOADS_URL}
+
+            # Correct format
+            if isinstance(data, dict):
+                return data
+
+        except Exception:
+            pass
+
+    # If file missing or corrupted
+    return {"uploads_url": DEFAULT_UPLOADS_URL}
+
+
+def save_config(cfg):
+    with open(CONFIG_FILE, "w") as f:
+        json.dump(cfg, f, indent=4)
+
+
 console = Console()
 
-UPLOADS_URL = "https://raw.githubusercontent.com/SabeeirSharrma/ATT-DB/main/uploads.json"
+DEFAULT_UPLOADS_URL = "https://raw.githubusercontent.com/SabeeirSharrma/ATT-DB/main/uploads.json"
+config = load_config()
+UPLOADS_URL = config.get("uploads_url", DEFAULT_UPLOADS_URL)
 
 def ascii_progress(task="Working", duration=1.8, length=20, color="\033[38;5;46m"):
     """Show a simple colored ASCII progress bar."""
@@ -254,7 +284,7 @@ def main():
     while True:
         cmd = Prompt.ask(
             "\n[cyan]Enter command[/cyan]",
-            choices=["list", "search", "info", "download", "refresh", "sort", "exit"],
+            choices=["list", "search", "info", "download", "refresh", "sort", "seturl", "exit"],
             default="list"
         )
 
@@ -263,15 +293,15 @@ def main():
             list_uploads(uploads)
 
         elif cmd == "sort":
-            sort_input= Prompt.ask(
+            sortby= Prompt.ask(
                 "[magenta]Sort by size (largest/smallest)[/magenta]",
                 choices=["smallest", "largest"],
                 default="largest"
                 )
 
-            if sort_input == "largest":
+            if sortby == "largest":
                 list_uploads(uploads, sort_by="size_desc")
-            elif sort_input == "smallest":
+            elif sortby == "smallest":
                 list_uploads(uploads, sort_by="size")
             
         elif cmd == "search":
@@ -300,6 +330,7 @@ def main():
                 console.print("[red]❌ Torrent ID not found.[/red]")
                 continue
 
+            console.print("\n[bold red]!!PLEASE SEED THE TORRENTS TO SUPPORT THE UPLOADERS!![/bold red]\n")
             ascii_progress("Opening magnet", duration=1.6)
             open_magnet(found["magnet"])
 
@@ -311,6 +342,19 @@ def main():
         elif cmd == "exit":
             console.print("[bold cyan]Goodbye![/bold cyan]")
             break
+
+        elif cmd == "seturl":
+            new_url = Prompt.ask("[bold yellow]Enter new JSON database URL[/bold yellow]")
+            config["uploads_url"] = new_url
+            save_config(config)
+
+            global UPLOADS_URL
+            UPLOADS_URL = new_url
+
+            console.print(f"[bold green]✔ Database URL updated to {new_url}![/bold green]")
+
+            ascii_progress("Fetching uploads...", duration=2.0)
+            uploads = fetch_uploads()
 
 
 if __name__ == "__main__":
