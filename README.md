@@ -2,6 +2,11 @@
 
 **AllTheTorr** is a friendly open-source torrent database browser featuring both CLI (Command Line Interface) and GUI (Graphical User Interface) modes. It empowers users to interact with torrent databases hosted in JSON format and let their community easily browse, search, and download torrents via magnet links—automatically opening in their preferred torrent client (such as qBittorrent or uTorrent).
 
+![GitHub License](https://img.shields.io/github/license/SabeeirSharrma/ATT-DB)
+![Language](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+[Discord](https://discord.gg/CN5datVbF4)
+
+
 ---
 
 ## 👀 Features
