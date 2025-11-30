@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ubuntu-22-04-lts",
+    "title": "Ubuntu 22.04 LTS (Official ISO)",
+    "description": "Official Ubuntu Desktop ISO image downloaded from ubuntu.com.",
+    "size": "3.5 GB",
+    "seeds": 1520,
+    "leeches": 12,
+    "verified": true,
+    "legal": true,
+    "magnet": "magnet:?xt=urn:btih:2e8e44068b254814ea1a7d4969a9af1d78e0f51f&dn=ubuntu-22.04.5-desktop-amd64.iso&xl=4762707968&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce&tr=https%3A%2F%2Fipv6.torrent.ubuntu.com%2Fannounce"
+  },
+  {
+    "id": "debian-13-netinst",
+    "title": "Debian 13.2.0 (NetInstaller)",
+    "description": "Official Debian 12 netinstall ISO.",
+    "size": "450 MB",
+    "seeds": 980,
+    "leeches": 4,
+    "verified": true,
+    "legal": true,
+    "magnet": "magnet:?xt=urn:btih:b2387d1a5eb488b8b60ed1eebec698fa20dfac34&dn=debian-13.2.0-amd64-netinst.iso&xl=822083584&tr=http%3A%2F%2Fbttracker.debian.org%3A6969%2Fannounce&ws=https://cdimage.debian.org/cdimage/archive/13.2.0/amd64/iso-cd/debian-13.2.0-amd64-netinst.iso&ws=https://cdimage.debian.org/cdimage/release/13.2.0/amd64/iso-cd/debian-13.2.0-amd64-netinst.iso"
+  },
+  {
+    "id": "kodi-official-release",
+    "title": "Kodi Media Center (Official Release)",
+    "description": "Open‑source media center software. Distributed under GNU/GPL.",
+    "size": "120 MB",
+    "seeds": 412,
+    "leeches": 3,
+    "verified": true,
+    "legal": true,
+    "magnet": "magnet:?xt=urn:btih:79009acd8dfb8613a7adb94afea84091df9a9b34&dn=kodi-21.3-Omega-x86.exe&tr=udp%3A%2F%2Ffosstorrents.com%3A6969%2Fannounce&tr=http%3A%2F%2Ffosstorrents.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&ws=https%3A%2F%2Fmirrors.kodi.tv%2Freleases%2Fwindows%2Fwin32%2Fkodi-21.3-Omega-x86.exe&ws=https%3A%2F%2Fftp.halifax.rwth-aachen.de%2Fxbmc%2Freleases%2Fwindows%2Fwin32%2Fkodi-21.3-Omega-x86.exe&ws=https%3A%2F%2Fkodi.freemirror.org%2Fkodi%2Freleases%2Fwindows%2Fwin32%2Fkodi-21.3-Omega-x86.exe&ws=https%3A%2F%2Fmirror.math.princeton.edu%2Fpub%2Fxbmc%2Freleases%2Fwindows%2Fwin32%2Fkodi-21.3-Omega-x86.exe&ws=https%3A%2F%2Fftp1.nluug.nl%2Fmediaplayer%2Fxbmc%2Freleases%2Fwindows%2Fwin32%2Fkodi-21.3-Omega-x86.exe&ws=https%3A%2F%2Fmirrors.ustc.edu.cn%2Fxbmc%2Freleases%2Fwindows%2Fwin32%2Fkodi-21.3-Omega-x86.exe&ws=http%3A%2F%2Fmirror.ufs.ac.za%2Fxbmc%2Freleases%2Fwindows%2Fwin32%2Fkodi-21.3-Omega-x86.exe&ws=http%3A%2F%2Fxbmc.mirror.digitalpacific.com.au%2Freleases%2Fwindows%2Fwin32%2Fkodi-21.3-Omega-x86.exe&ws=http%3A%2F%2Flinorg.usp.br%2Fxbmc%2Freleases%2Fwindows%2Fwin32%2Fkodi-21.3-Omega-x86.exe&ws=http%3A%2F%2Ffosstorrents.com%2Fdirect-links%2Fkodi-21.3-Omega-x86.exe"
+  },
+  {
+    "id": "blender-5-0",
+    "title": "Blender 5.0 (Official Build)",
+    "description": "Official Blender Foundation release. Free & open‑source 3D suite.",
+    "size": "300 MB",
+    "seeds": 870,
+    "leeches": 6,
+    "verified": true,
+    "legal": true,
+    "magnet": "magnet:?xt=urn:btih:73df8a9f06a5eff2be4473f55dcf0bc065d6d18a&dn=blender-5.0.0-windows-x64.msi&xl=373547008&tr=udp%3A%2F%2Ffosstorrents.com%3A6969%2Fannounce&tr=http%3A%2F%2Ffosstorrents.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&ws=http://fosstorrents.com/direct-links/blender-5.0.0-windows-x64.msi&ws=http://ftp.halifax.rwth-aachen.de/blender/release/Blender5.0/blender-5.0.0-windows-x64.msi&ws=http://ftp.nluug.nl/pub/graphics/blender/release/Blender5.0/blender-5.0.0-windows-x64.msi&ws=http://mirror.clarkson.edu/blender/release/Blender5.0/blender-5.0.0-windows-x64.msi&ws=http://mirror.freedif.org/blender/release/Blender5.0/blender-5.0.0-windows-x64.msi&ws=http://mirrors.aliyun.com/blender/release/Blender5.0/blender-5.0.0-windows-x64.msi&ws=http://mirrors.dotsrc.org/blender/blender-release/Blender5.0/blender-5.0.0-windows-x64.msi&ws=http://mirrors.ocf.berkeley.edu/blender/release/Blender5.0/blender-5.0.0-windows-x64.msi&ws=https://mirrors.iu13.net/blender/release/Blender5.0/blender-5.0.0-windows-x64.msi&ws=https://mirrors.sahilister.in/blender/release/Blender5.0/blender-5.0.0-windows-x64.msi"
+  },
+  {
+    "id": "public-domain-books-pack",
+    "title": "Public Domain Books Collection",
+    "description": "A collection of classic books in the public domain from Project Gutenberg.",
+    "size": "250 MB",
+    "seeds": 220,
+    "leeches": 7,
+    "verified": true,
+    "legal": true,
+    "magnet": "magnet:?xt=urn:btih:73df8a9f06a5eff2be4473f55dcf0bc065d6d18a&dn=blender-5.0.0-windows-x64.msi&xl=373547008&tr=udp%3A%2F%2Ffosstorrents.com%3A6969%2Fannounce&tr=http%3A%2F%2Ffosstorrents.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&ws=http://fosstorrents.com/direct-links/blender-5.0.0-windows-x64.msi&ws=http://ftp.halifax.rwth-aachen.de/blender/release/Blender5.0/blender-5.0.0-windows-x64.msi&ws=http://ftp.nluug.nl/pub/graphics/blender/release/Blender5.0/blender-5.0.0-windows-x64.msi&ws=http://mirror.clarkson.edu/blender/release/Blender5.0/blender-5.0.0-windows-x64.msi&ws=http://mirror.freedif.org/blender/release/Blender5.0/blender-5.0.0-windows-x64.msi&ws=http://mirrors.aliyun.com/blender/release/Blender5.0/blender-5.0.0-windows-x64.msi&ws=http://mirrors.dotsrc.org/blender/blender-release/Blender5.0/blender-5.0.0-windows-x64.msi&ws=http://mirrors.ocf.berkeley.edu/blender/release/Blender5.0/blender-5.0.0-windows-x64.msi&ws=https://mirrors.iu13.net/blender/release/Blender5.0/blender-5.0.0-windows-x64.msi&ws=https://mirrors.sahilister.in/blender/release/Blender5.0/blender-5.0.0-windows-x64.msi"
+  },
+    {
+    "id": "adobe-ps-26-7",
+    "title": "Adobe Photoshop 2025 (v26.7) Multilingual Cracked ",
+    "description": "A collection of classic books in the public domain from Project Gutenberg.",
+    "size": "5.2 GB",
+    "seeds": 254,
+    "leeches": 18,
+    "verified": true,
+    "legal": true,
+    "magnet": "magnet:?xt=urn:btih:21D8FD1E50D540DFB1CB470146C3FB2341F25FA0&dn=Adobe+Photoshop+2025+%28v26.7%29+Multilingual+Cracked+-+%5BCZSofts%5D&tr=http%3A%2F%2Fuztracker.net%2Fbt%2Fannounce.php%3Fuk%3DdAQCiK8Euf4qtV3GvOYI&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A1337%2Fannounce&tr=udp%3A%2F%2F%5B2001%3A67c%3A28f8%3A92%3A%3A1111%3A1%5D%3A2710%2Fannounce&tr=udp%3A%2F%2Fipv6.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fzephir.monocul.us%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2F46.148.18.250%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce"
+  }
+]
