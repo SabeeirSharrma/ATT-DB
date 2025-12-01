@@ -151,7 +151,7 @@ Pull requests and suggestions welcome! Feel free to fork the repository and prop
 
 ---
 
-## 🙌 License
+## 📜 License
 
 GNU AGPL License
 
