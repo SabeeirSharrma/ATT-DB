@@ -157,4 +157,4 @@ GNU AGPL License
 
 ---
 
-** 💻 Created by [SabeeirSharrma](https://github.com/SabeeirSharrma)**
+**💻 Created by [SabeeirSharrma](https://github.com/SabeeirSharrma)**
