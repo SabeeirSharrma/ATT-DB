@@ -39,7 +39,7 @@
 1. **Database Format:**  
    - Torrents are listed in a `.json` file, each entry containing details (title, description, size, seeds, leeches, magnet, etc.).
    - Host your database file (e.g. on GitHub or any direct URL).
-   - [Sample json file](https://github.com/SabeeirSharrma/ATT-DB/main/README.md#example-database-entry)
+   - [Sample json file](https://github.com/SabeeirSharrma/ATT-DB/main/README.md#-example-database-entry)
    
 
 2. **Interact with Torrents:**  
